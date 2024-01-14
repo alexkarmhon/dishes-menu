@@ -5,4 +5,4 @@ console.log("hello");
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/some_js_partial_code.js");
 },{"./sass/main.scss":"clu1","./js/some_js_partial_code.js":"l8ym"}]},{},["Focm"], null)
-//# sourceMappingURL=/dishes-menu/src.0ec91247.js.map
+//# sourceMappingURL=/dishes-menu/src.8d0350e2.js.map
