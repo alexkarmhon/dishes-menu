@@ -1,0 +1,29 @@
+{
+  "name": "dishes-menu",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://alexkarmhon.github.io/dishes-menu",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /dishes-menu/",
+    "server": "json-server db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkarmhon/dishes-menu.git"
+  },
+  "author": "Olexii <89stigmat89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkarmhon/dishes-menu/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "json-server": "^1.0.0-alpha.16",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.4"
+  }
+}
